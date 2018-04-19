@@ -23,7 +23,7 @@
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.6.7",
-    "uniqCompNum": 9,
+    "uniqCompNum": 10,
     "versionPublish": "4.6.7",
     "favicon": "",
     "noImageResize": "",
@@ -127,6 +127,41 @@
         },
         {
           "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5,
+            "facebook": false,
+            "twitter": false,
+            "google": false,
+            "vkontakte": false,
+            "odnoklassniki": false
+          },
+          "text": "<span style=\"font-weight: normal;\">Nealson S (9B), Jonathan N R (9B), Adrielle M I (9A), Nathan A T (9A)</span>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons1",
+          "_anchor": "social-buttons1-9",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-size": "16px"
+            },
+            ".mbr-section-title SPAN": {
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "font-size": "25px"
+            }
+          }
+        },
+        {
+          "_params": {
             "showTitle": true,
             "showText": true,
             "showButtons": false,
@@ -161,10 +196,10 @@
             "fullWidth": false,
             "spacing": 1,
             "paddingTop": 0,
-            "paddingBottom": 0,
+            "paddingBottom": "0",
             "filterBgColor": false,
             "bgColor": "fff",
-            "showText": false,
+            "showText": true,
             "filter": true,
             "images": [
               {
