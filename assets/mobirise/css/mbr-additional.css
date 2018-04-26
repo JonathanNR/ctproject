@@ -632,3 +632,16 @@ h6,
 #ext_menu-e .dropdown-item[aria-expanded="true"] {
   color: #c0a375!important;
 }
+#header3-k .mbr-section-title,
+#header3-k .mbr-section-subtitle {
+  text-align: center;
+}
+#header3-k .mbr-section-title {
+  font-size: 60px;
+}
+#msg-box5-m P {
+  font-size: 36px;
+}
+#msg-box5-r P {
+  font-size: 23px;
+}
