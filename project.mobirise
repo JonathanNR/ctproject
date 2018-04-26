@@ -291,22 +291,24 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@PROJECT_PATH@/assets/images/coworkers.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/coworkers-small.jpg",
+                "image": "@PROJECT_PATH@/assets/images/whats-league-legends-1-670x335.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/whats-league-legends-1-670x335-491x335.jpg",
                 "alt": "",
-                "caption": "Type caption here",
-                "active": false
+                "caption": "League of Legends",
+                "title": "",
+                "active": true
               },
               {
                 "tags": "Multiplayer Battle Arena Games",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@PROJECT_PATH@/assets/images/coworkers.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/coworkers-small.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dota-2-official-4-800x450.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dota-2-official-4-800x450-652x440.jpg",
                 "alt": "",
-                "caption": "Type caption here",
-                "active": true
+                "caption": "Dota 2",
+                "active": false,
+                "title": ""
               },
               {
                 "tags": "First Person Shooting Games",
