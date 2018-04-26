@@ -243,11 +243,12 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@PROJECT_PATH@/assets/images/code-man.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/code-man-small.jpg",
+                "image": "@PROJECT_PATH@/assets/images/fifa-18-career-mode-5-810x451.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/fifa-18-career-mode-5-810x451-653x448.jpg",
                 "alt": "",
-                "caption": "Type caption here",
-                "active": true
+                "caption": "FIFA",
+                "active": false,
+                "title": ""
               },
               {
                 "tags": "Sports Games",
@@ -266,11 +267,12 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@PROJECT_PATH@/assets/images/code-man.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/code-man-small.jpg",
+                "image": "@PROJECT_PATH@/assets/images/unnamed-2-551x310.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/unnamed-2-551x310-446x310.jpg",
                 "alt": "",
-                "caption": "Type caption here",
-                "active": false
+                "caption": "Tekken",
+                "title": "",
+                "active": true
               },
               {
                 "tags": "Multiplayer Battle Arena Games",
