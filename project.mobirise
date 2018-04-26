@@ -19,7 +19,8 @@
         "isAnimatedOnScroll": true,
         "isScrollToTopButton": false,
         "isRtl": false
-      }
+      },
+      "additionalSetColors": []
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.6.7",
@@ -168,7 +169,7 @@
             "showArrow": true,
             "contentAlign": "center",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/broadcast-sports-news-background-loop-sigir-jf-f0000-1920x1080.png",
+            "bgImage": "@PROJECT_PATH@/assets/images/unnamed-1088x612.png",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#a07e49",
@@ -187,7 +188,12 @@
             "Theme"
           ],
           "_name": "header1",
-          "_anchor": "header1-2"
+          "_anchor": "header1-2",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-size": "100px"
+            }
+          }
         },
         {
           "_inherit": "header1",
@@ -197,18 +203,18 @@
             "showButtons": false,
             "showArrow": false,
             "contentAlign": "right",
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/thumb-1920-696053-1920x1080.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#a07e49",
-            "bgVideoRadio": true,
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "overlay": true,
-            "overlayColor": "#000",
-            "overlayOpacity": 0.5
+            "overlayColor": "#475577",
+            "overlayOpacity": "0.8"
           },
           "title": "",
           "text": "Esports a.k.a Electronic Sports or Professional Gaming, are organized competitions where professional players and or teams compete against each other&nbsp;<br>",
