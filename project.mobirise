@@ -251,7 +251,7 @@
                 "title": ""
               },
               {
-                "tags": "Responsive",
+                "tags": "Fighting Games",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
@@ -259,7 +259,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/code-man-small.jpg",
                 "alt": "",
                 "caption": "Type caption here",
-                "active": false
+                "active": true
               },
               {
                 "tags": "Multiplayer Battle Arena Games",
@@ -270,7 +270,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/coworkers-small.jpg",
                 "alt": "",
                 "caption": "Type caption here",
-                "active": true
+                "active": false
               },
               {
                 "tags": "First Person Shooting Games",
