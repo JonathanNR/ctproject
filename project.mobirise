@@ -296,7 +296,7 @@
                 "alt": "",
                 "caption": "League of Legends",
                 "title": "",
-                "active": true
+                "active": false
               },
               {
                 "tags": "Multiplayer Battle Arena Games",
@@ -315,10 +315,23 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@PROJECT_PATH@/assets/images/desktop.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/desktop-small.jpg",
+                "image": "@PROJECT_PATH@/assets/images/cs-go-header-valve-2-800x400.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/cs-go-header-valve-2-800x400-595x400.jpg",
                 "alt": "",
-                "caption": "Type caption here",
+                "caption": "Counter-Strike : Global Offensive",
+                "active": false,
+                "title": ""
+              },
+              {
+                "tags": "First Person Shooting Games",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/maxresdefault-4-1280x720.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/maxresdefault-4-1280x720-800x536.jpg",
+                "alt": "",
+                "caption": "Team Fortress 2",
+                "title": "",
                 "active": false
               },
               {
@@ -326,8 +339,32 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@PROJECT_PATH@/assets/images/room-laptop.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/room-laptop-small.jpg",
+                "image": "@PROJECT_PATH@/assets/images/5a840a565bafe3cf522455e3-4-600x351.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/5a840a565bafe3cf522455e3-4-600x351-521x348.jpg",
+                "alt": "",
+                "caption": "Forza",
+                "title": "",
+                "active": false
+              },
+              {
+                "tags": "Racing Games",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/maxresdefault-8-1280x720.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/maxresdefault-8-1280x720-800x537.jpg",
+                "alt": "",
+                "caption": "iRacing",
+                "active": true,
+                "title": ""
+              },
+              {
+                "tags": "Many More",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/table.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/table-small.jpg",
                 "alt": "",
                 "caption": "Type caption here",
                 "active": false
