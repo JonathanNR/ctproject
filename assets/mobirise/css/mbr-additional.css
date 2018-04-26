@@ -431,11 +431,11 @@ h6,
   color: #ffffff;
 }
 #ext_menu-6 .link {
-  font-size: 0.75rem;
+  font-size: 0.95rem;
 }
 #ext_menu-6 .dropdown-item,
 #ext_menu-6 .nav-dropdown-sm .link {
-  font-size: 0.812rem;
+  font-size: 1.029rem;
 }
 #ext_menu-6 .link:hover,
 #ext_menu-6 .dropdown-item:hover,
@@ -484,6 +484,17 @@ h6,
 #header4-a .mbr-section-lead {
   font-size: 48px;
   text-align: center;
+}
+#social-buttons3-d .mbr-section-title,
+#social-buttons3-d .btn-social {
+  color: #fff;
+}
+#features1-c .striped .mbr-cards-col:nth-child(2n+1) {
+  background-color: #2e2e2e;
+}
+#social-buttons3-b .mbr-section-title,
+#social-buttons3-b .btn-social {
+  color: #fff;
 }
 #features1-3 .striped .mbr-cards-col:nth-child(2n+1) {
   background-color: #2e2e2e;
