@@ -523,6 +523,16 @@ h6,
 #features1-3 .mbr-cards-col:nth-child(odd) .card-title {
   color: #000000;
 }
+#msg-box3-h .mbr-section-title,
+#msg-box3-h p {
+  color: #000;
+}
+#msg-box3-h .mbr-section-title {
+  font-size: 46px;
+}
+#msg-box5-t H3 {
+  font-size: 36px;
+}
 #ext_menu-7 .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -583,14 +593,6 @@ h6,
 #ext_menu-7 .link[aria-expanded="true"],
 #ext_menu-7 .dropdown-item[aria-expanded="true"] {
   color: #c0a375!important;
-}
-#msg-box3-i .mbr-section-title,
-#msg-box3-i p {
-  color: #000;
-}
-#msg-box3-h .mbr-section-title,
-#msg-box3-h p {
-  color: #000;
 }
 #ext_menu-e .hide-buttons .nav-btn {
   display: none !important;
