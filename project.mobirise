@@ -243,11 +243,12 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@PROJECT_PATH@/assets/images/bike.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/bike-small.jpg",
+                "image": "@PROJECT_PATH@/assets/images/nba-2k17-760x523.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/nba-2k17-760x523-760x522.jpg",
                 "alt": "",
-                "caption": "Type caption here",
-                "active": false
+                "caption": "NBA 2K",
+                "active": false,
+                "title": ""
               },
               {
                 "tags": "Responsive",
@@ -261,7 +262,7 @@
                 "active": false
               },
               {
-                "tags": "Creative",
+                "tags": "Multiplayer Battle Arena Games",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
@@ -269,7 +270,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/coworkers-small.jpg",
                 "alt": "",
                 "caption": "Type caption here",
-                "active": false
+                "active": true
               },
               {
                 "tags": "First Person Shooting Games",
@@ -302,7 +303,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/table-small.jpg",
                 "alt": "",
                 "caption": "Type caption here",
-                "active": true
+                "active": false
               },
               {
                 "tags": "Responsive",
