@@ -495,12 +495,33 @@ h6,
 #features1-c .striped .mbr-cards-col:nth-child(2n+1) {
   background-color: #2e2e2e;
 }
+#features1-c .mbr-cards-col:nth-child(odd) .card-subtitle {
+  color: #ffffff;
+}
+#features1-c .mbr-cards-col:nth-child(even) .card-subtitle {
+  color: #ffffff;
+}
+#features1-c .mbr-cards-col:nth-child(even) .card-title {
+  color: #ffffff;
+}
+#features1-c .mbr-cards-col:nth-child(even) .card-text {
+  color: #ffffff;
+}
 #social-buttons3-b .mbr-section-title,
 #social-buttons3-b .btn-social {
   color: #fff;
 }
+#social-buttons3-b .mbr-section-title {
+  color: #000000;
+}
 #features1-3 .striped .mbr-cards-col:nth-child(2n+1) {
-  background-color: #2e2e2e;
+  background-color: #ffffff;
+}
+#features1-3 .mbr-cards-col:nth-child(odd) .card-text {
+  color: #000000;
+}
+#features1-3 .mbr-cards-col:nth-child(odd) .card-title {
+  color: #000000;
 }
 #ext_menu-7 .hide-buttons .nav-btn {
   display: none !important;

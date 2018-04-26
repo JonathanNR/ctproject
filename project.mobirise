@@ -22,7 +22,8 @@
       },
       "additionalSetColors": [
         "#b9c1c2",
-        "#577276"
+        "#577276",
+        "#2e2e2e"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -405,10 +406,10 @@
           "_inherit": "header1",
           "_params": {
             "showTitle": true,
-            "showText": true,
-            "showButtons": true,
-            "showArrow": true,
-            "contentAlign": "right",
+            "showText": false,
+            "showButtons": false,
+            "showArrow": false,
+            "contentAlign": "center",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -416,13 +417,16 @@
             "bgColor": "#a07e49",
             "bgVideoRadio": true,
             "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+              "url": "https://www.youtube.com/embed/3fKIURrtZ84?rel=0&amp;showinfo=0&autoplay=0&loop=0",
+              "rawUrl": "https://www.youtube.com/watch?v=3fKIURrtZ84",
+              "width": 1280,
+              "height": 720
             },
             "overlay": true,
-            "overlayColor": "#000",
-            "overlayOpacity": 0.5
+            "overlayColor": "#000000",
+            "overlayOpacity": "0.7"
           },
-          "title": "VIDEO BACKGROUND",
+          "title": "In the video, these people are in 2 teams and are fighting for their place at the Overwatch Tournament.",
           "text": "Intro with background video and color overlay. Text and buttons are aligned to right. Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>",
           "_tags": [
@@ -472,12 +476,12 @@
             "columnsColor": "#2e2e2e",
             "paddingTop": 2,
             "paddingBottom": 2,
-            "columns": 4,
+            "columns": "2",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#fff",
+            "bgColor": "#2e2e2e",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -488,7 +492,7 @@
           },
           "media1": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/2497357-jeremylin-600x228.png",
+              "src": "@PROJECT_PATH@/assets/images/2497357-jeremylin-2-600x228.png",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -499,15 +503,18 @@
           },
           "media2": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/desktop.jpg",
+              "src": "@PROJECT_PATH@/assets/images/codyaltmanleaguelegendscollegechampionship0tltxqf3sgcl-1-400x600.jpg",
               "class": "card-img-top",
               "width": 600,
-              "active": true
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
             }
           },
           "media3": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/coworkers.jpg",
+              "src": "@THEME_PATH@/components/_images/gallery/coworkers.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true
@@ -515,7 +522,7 @@
           },
           "media4": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/code-man.jpg",
+              "src": "@THEME_PATH@/components/_images/gallery/code-man.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true
@@ -540,9 +547,9 @@
           "title1": "Jeremy Lin",
           "subtitle1": "NBA Player &amp; Dota 2 Enthusiast<div></div>",
           "caption1": "“I see it in a lot of ways similar to basketball. Just like a 5 on 5 game where you kinda have to work together and utilize each other’s strengths and synergizing everything together. The teamwork, and the trust, and the sacrifice those are all true for every single team sport.”<br>",
-          "title2": "Responsive",
-          "subtitle2": "One of Bootstrap 4's big points",
-          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "title2": "Cody Altman",
+          "subtitle2": "Professional League of Legends Player &amp; Member of Maryville",
+          "caption2": "“It feels amazing to show that I put in all this practice in solo queue and it actually pays off. I actually begged for Nidalee, but they’re like, ‘Oh no, let’s put you on something else,’ but I really begged for it and it pays off that I have the skill to do what I needed to do today.”",
           "title3": "Web Fonts",
           "subtitle3": "Google has a highly exhaustive list of fonts",
           "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
@@ -568,6 +575,18 @@
           "_styles": {
             ".striped .mbr-cards-col:nth-child(2n+1)": {
               "background-color": "#2e2e2e"
+            },
+            ".mbr-cards-col:nth-child(odd) .card-subtitle": {
+              "color": "#ffffff"
+            },
+            ".mbr-cards-col:nth-child(even) .card-subtitle": {
+              "color": "#ffffff"
+            },
+            ".mbr-cards-col:nth-child(even) .card-title": {
+              "color": "#ffffff"
+            },
+            ".mbr-cards-col:nth-child(even) .card-text": {
+              "color": "#ffffff"
             }
           },
           "_anchor": "features1-c"
@@ -577,6 +596,9 @@
           "_styles": {
             ".mbr-section-title, .btn-social": {
               "color": "#fff"
+            },
+            ".mbr-section-title": {
+              "color": "#000000"
             }
           },
           "_params": {
@@ -586,7 +608,7 @@
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#2e2e2e",
+            "bgColor": "#ffffff",
             "overlay": false,
             "overlayColor": "#222",
             "overlayOpacity": 0.5,
@@ -607,13 +629,13 @@
           "_params": {
             "showImages": true,
             "showTitles": true,
-            "showSubtitles": true,
+            "showSubtitles": false,
             "ShowTexts": true,
-            "showButtons": true,
-            "columnsColor": "#2e2e2e",
+            "showButtons": false,
+            "columnsColor": "#ffffff",
             "paddingTop": 2,
             "paddingBottom": 2,
-            "columns": 4,
+            "columns": "3",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -629,31 +651,40 @@
           },
           "media1": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/table.jpg",
+              "src": "@PROJECT_PATH@/assets/images/seagull610-600x337.jpg",
               "class": "card-img-top",
               "width": 600,
-              "active": true
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
             }
           },
           "media2": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/desktop.jpg",
+              "src": "@PROJECT_PATH@/assets/images/thumb-2017-03-29-20-32-58-sneaky-profile-small-2-600x600.png",
               "class": "card-img-top",
               "width": 600,
-              "active": true
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
             }
           },
           "media3": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/coworkers.jpg",
+              "src": "@PROJECT_PATH@/assets/images/wensushi-top-360x470.jpg",
               "class": "card-img-top",
               "width": 600,
-              "active": true
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
             }
           },
           "media4": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/code-man.jpg",
+              "src": "@THEME_PATH@/components/_images/gallery/code-man.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true
@@ -675,15 +706,15 @@
               "active": true
             }
           },
-          "title1": "Bootstrap 4",
+          "title1": "Brandon Larned",
           "subtitle1": "Bootstrap 4 has been noted",
-          "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
-          "title2": "Responsive",
+          "caption1": "Brandon Larned, also known as Seagull, is a professional Overwatch player who is a member of the Dallas Fuel.",
+          "title2": "Tyler Latham",
           "subtitle2": "One of Bootstrap 4's big points",
-          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
-          "title3": "Web Fonts",
+          "caption2": "Tyler Latham, also known as Skadoodle, is a professional CSGO player who is a member of Cloud9.",
+          "title3": "Tao Yaozhong",
           "subtitle3": "Google has a highly exhaustive list of fonts",
-          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "caption3": "Tao Yaozhong, also known as Wensushi, is a professional Hearthstone player who is a member of ManaSurge",
           "title4": "Unlimited Sites",
           "subtitle4": "Mobirise gives you the freedom to develop",
           "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
@@ -706,7 +737,13 @@
           "_anchor": "features1-3",
           "_styles": {
             ".striped .mbr-cards-col:nth-child(2n+1)": {
-              "background-color": "#2e2e2e"
+              "background-color": "#ffffff"
+            },
+            ".mbr-cards-col:nth-child(odd) .card-text": {
+              "color": "#000000"
+            },
+            ".mbr-cards-col:nth-child(odd) .card-title": {
+              "color": "#000000"
             }
           }
         }
