@@ -205,7 +205,7 @@
             "showText": true,
             "showButtons": false,
             "showArrow": false,
-            "contentAlign": "right",
+            "contentAlign": "center",
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/thumb-1920-696053-1920x1080.jpg",
             "parallax": true,
