@@ -272,7 +272,19 @@
                 "alt": "",
                 "caption": "Tekken",
                 "title": "",
-                "active": true
+                "active": false
+              },
+              {
+                "tags": "Fighting Games",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/wiiu-supersmashbros-illustration-5-2000x1125.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/wiiu-supersmashbros-illustration-5-2000x1125-800x554.jpg",
+                "alt": "",
+                "caption": "Super Smash Bros.",
+                "title": "",
+                "active": false
               },
               {
                 "tags": "Multiplayer Battle Arena Games",
@@ -284,6 +296,17 @@
                 "alt": "",
                 "caption": "Type caption here",
                 "active": false
+              },
+              {
+                "tags": "Multiplayer Battle Arena Games",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/coworkers.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/coworkers-small.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": true
               },
               {
                 "tags": "First Person Shooting Games",
